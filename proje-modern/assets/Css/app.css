@@ -1,0 +1,46 @@
+.item{
+    border-radius: 14px;
+   border:orange 2px solid;
+    object-fit: cover;
+  }
+  .items{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 14px;
+   border:#530860 2px solid;
+    object-fit: cover;
+  }
+  .item-2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 14px;
+   border:#530860 2px solid;
+    object-fit: cover;
+  }
+  .customNavigation{
+    text-align: center;
+    color: #3fbf79;
+  }
+
+  /* //use styles below to disable ugly selection */
+  .customNavigation a{
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+
+  /* responsive */
+  @media(max-width:498px){
+    .item, .items{
+      margin: 0 5rem;
+    }
+  }
+  @media(max-width:440px){
+    .item, .items{
+      margin: 0 2rem;
+    }
+  }

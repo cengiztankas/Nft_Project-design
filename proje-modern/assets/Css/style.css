@@ -1,0 +1,461 @@
+/*Google font lato*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito:wght@200;400;500;600;700&display=swap');
+@import "reset.css";
+body{font-family: 'Lato';}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(250, 250, 250, 0.8);
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(250, 250, 250, 0.8);
+
+}
+
+.head_logo{
+    width: 140px;
+    height: auto;
+}
+.outer_btn{
+    color: #fff;
+    font-size: 1rem;
+    font-family: Lato;
+    font-weight: 300;
+}
+.header_btn{
+    min-width: 114px;
+    width: auto;
+    padding: 10px;
+    border-radius: 8px;
+    background: #1480e8;
+    border: none;
+}
+.home_title{
+    font-weight: 700;
+    color: #0A203F;
+    font-size: 56px;
+}
+.soft_blue{
+    color: #1480E8;
+}
+.home_padding {
+    padding: 4rem 0;
+}
+.home_paragraf {
+    color: #838383;
+    width: 70%;
+}
+.bottom96{
+   margin-bottom: 6rem;
+}
+.section-title {
+    color: #0A203F;
+    font-weight: 700;
+    font-size: 32px;
+}
+.section-title-sm {
+    color: #0A203F;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.section-box {
+    background: #F1F4FA;
+    width: 100%;
+    min-height: 213px;
+    height: auto;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.box_icon {
+    width: 62px;
+    height: auto;
+}
+.box_number {
+    font-size: 52px;
+    font-weight: 800;
+    color: #DBE9F9;
+}
+.mb-175{margin-bottom: 2rem !important;}
+.section-title-description {
+    color: #909192;
+}
+
+/* live_Action */
+.live-action_title{
+    font-weight: 700;
+}
+.explore-more_btn{
+    border-bottom: solid 2px orange!important;
+    padding: 10px;
+    font-weight: 600;
+    background-color: #fff;
+}
+.explore-more_btn:hover {
+    color: orange;
+}
+/* card */
+
+.live_card.card{
+    border-radius: 14px;
+    color: #000 !important;
+    
+}
+.item{
+    
+    padding-top: 0;
+    text-align: left !important;
+}
+.item.live_card.card {
+    padding: 0;
+    background: #fff !important;
+}
+.live-card-title{
+    padding: 1rem 1rem 0;
+    text-align: start;
+}
+/* üç nokta */
+.card_menu{
+    position:absolute;
+    right: 5px;
+    top: 2px;
+
+}
+.dot{
+    font-size: 24px;
+    font-weight: 600;
+    background-color: transparent !important;
+
+}
+
+/* ------------------------------- */
+.live-card-title .user-img{
+    width: 28px !important;
+    display: none;
+    border-radius: 50%;
+}
+.card-body{
+    height: auto;
+}
+.live_username{
+    color: #000;
+}
+.timer-box{
+    position: relative;
+    width: 120px;
+    height: 42px;
+     background: #E6EFFB;
+    border-radius: 8px;
+    bottom: 24px;
+}
+.timer-body{
+    position: absolute;
+    
+}
+.right-pading{
+    padding-right: .2rem !important;
+}
+.bg-usercard-img{
+    
+width: 100% !important;
+height: auto;
+min-height: 224px;
+object-fit: cover;
+border-radius: 14px;
+}
+.card-nft-title {
+color: #0A203F;
+font-size: 24px;
+font-weight: 400;
+}
+.nft_price {
+font-weight: 700;
+color: #1480E8;
+font-size: 24px;
+text-transform: uppercase;
+}
+.ml-4 {
+position: relative;
+left: 4px;
+}
+.nft-card-btn {
+width: 100%;
+padding: 10px;
+border-radius: 8px;
+background: #1480e8;
+border: none;
+color: #fff;
+}
+
+/* top-artist */
+.section-title-artist {
+    color: #0A203F;
+    font-weight: 700;
+    font-size: 24px;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+text-transform: capitalize;
+}
+.top-artist-socialmedia {
+    text-align: right !important;
+    height: 130px;
+    background-color: #530860;
+    border-radius: 10px 10px 0 0px;
+    padding: 8px;
+   
+}
+.items{
+    padding: 0 !important;
+  
+}
+.d-grid {
+    text-align: center;
+}
+.top-artist-img-items{
+    border-radius: 50%;
+border: #530860  2px solid;
+position: absolute;
+justify-content: center;
+}
+.top-artist-img{
+border-radius: 50%;
+border: #fff 2px solid;
+}
+.align-items_self-end{
+    align-items:self-end;
+}
+.top-artist-socialmedia a{
+    color: #caccd1 !important;
+}
+.occupation{
+    font-weight: 700;
+    color: #000;
+    font-size: 16px;
+}
+.rating-wrap .fa-star{
+font-size: 12px;
+color: #889db3;
+
+}
+.checked{
+    color: #530860 !important ;
+}
+.btn-about-me{
+    border-radius: 14px;
+    background-color: #530860;
+    color: #fff;
+    font-size: 1rem;
+    padding:2px 5px;
+    width: 80%;
+}
+/* category */
+.category-title{
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0.5rem !important;
+    width: 100%;
+}
+.category{
+    width: 100%;
+   height: 130px;
+    background: #d2dff3;
+    border-radius: 14px;
+    justify-content: center;
+}
+/* popular */
+.card-basic{
+    padding: 1rem;
+}
+.card-top{
+border-radius: 14px;
+padding: 1rem;
+position: relative;
+height: 175px;
+}
+.popular-collection .card-top img{
+    width: 60% !important;
+}
+.like-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.5rem;
+}
+.btn-like{
+      background-color: #1480E8 !important;
+    color: #fff;
+    border-radius: 6px;
+    padding:2px 5px;
+}
+.popular-collection .user-img-popular{
+position: relative;
+}
+.user-img-popular{
+    margin-bottom: 2rem;
+}
+img.user-img-popular_item {
+    width: 40% !important;
+    position: absolute; 
+    width: 52px !important;
+    height: 52px;
+    border-radius: 8px;
+    border: solid 2px #fff;
+}
+.darkblue {
+    color: #0A203F !important;
+}
+.green_card {
+    background: #6bd095;
+}
+.purple_card {
+    background: #BC67DC;
+}
+.orange_card {
+    background: #F49A40;
+}
+/* choose us */
+.choose-us{
+    padding-top:3rem ;
+    height: 350px;
+    background-color: #d2dff3;
+}
+.choose_icon {
+    height: 132px;
+    width: auto;
+    position: relative;
+    top: 40px;
+}
+.choose_card {
+    background: #fff;
+    padding: 3rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 8px 0 #0000002e;
+}
+/* faqs */
+.faqs-img{
+    width: 100%;
+}
+/* question  */
+.accordion-button {
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1.25rem;
+color: #0A203F !important;
+    box-shadow: inset 0 -1px 0 transparent !important;
+}
+.accordion-item{
+    border: none !important;
+    margin-bottom: .5rem;
+    
+}
+.accordion-header{
+    border: 1px solid gray !important;
+    border-radius: 12px;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+    border-radius: 12px !important;
+}
+.accordion-item:first-of-type .accordion-button {
+    border-radius: 12px !important;
+}
+/* Investors-Partners      */
+.partners_img{
+    width: auto;
+   height: 28px;
+   
+}
+
+.Investors-Partners{
+    background-color: rgba(250, 175, 150, 0.2); 
+}
+.Investors-Partners ul{
+    padding: .5rem 0 !important;
+}
+.Investors-Partners li {
+    padding: 1rem 6.2rem 1rem 0 !important;
+    margin-left: 0;
+    line-height: 3.2rem;
+    display: inline;
+}
+
+/* news */
+.section-title-md {
+    color: #0A203F;
+    font-weight: 700;
+    font-size: 28px;
+    width: 90%;
+}
+.news .container{
+    background-color: #E6EFFB;
+    border-radius: 2rem;
+    padding: 3rem 5rem;
+}
+.news_paper-img{
+    width: 70%;
+}
+.news-box{
+    width: 90%;
+    padding: 1rem .5rem 1rem 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.email_box{
+    width: 100%;
+}
+.subscribe{
+    width: 100%;
+}
+
+/* footer */
+.footer-logo-img {
+    width: 214px;
+    height: auto;
+}
+p.footer-desc {
+    color: #30445f;
+    line-height: 32px;
+    font-size: 1rem;
+    width: 18.125rem;
+}
+.footer_title {
+    color: #0A203F;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 26px !important;
+}
+.footer_list > ul > li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+.footer_list > ul > li > a {
+    text-decoration: none;
+    color: #30445f;
+    font-size: 15px;
+}
+.social_icon {
+    width: 40px;
+    height: 40px;
+}
+.footer_social > ul > li {
+    display: inline-block;
+    padding: 0 12px 0 0;
+}
+.footer_line {
+    border-bottom: solid 1px #D0D0D2;
+}
+.copyright {
+    color: #838383;
+    font-size: 14px;
+    padding: 16px 0 !important;
+}

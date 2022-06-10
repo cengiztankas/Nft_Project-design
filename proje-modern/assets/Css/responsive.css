@@ -1,0 +1,221 @@
+/* 0-3000px  */
+@media(min-width:1400px){
+.navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0.75rem !important;
+        padding-left: 0.75rem !important;
+    }
+    .home_title{
+        font-weight: 700;
+        color: #0A203F;
+        font-size: 42px;
+    }
+    .soft_blue{
+        color: #1480E8 !important;
+    }
+    .home_paragraf {
+        color: #838383;
+        width: 70%;
+    }
+    .section-title {
+        color: #0A203F;
+        font-weight: 700;
+        font-size: 32px;
+    }
+    .section-title-sm {
+        color: #0A203F;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .home-img{
+        width: 90%!important;
+    }
+    .live_paragraf {
+        width: 95%;
+    }
+    .choose-us{
+        margin-bottom: 12rem;
+    }  
+}
+/* 0-1400px arası */
+@media(max-width:1400px){
+     .popular-collection .item{
+        height: 340px;
+    }
+    
+        .navbar-expand-lg .navbar-nav .nav-link{
+                padding-right: 0.75rem !important;
+                padding-left: 0.75rem !important;
+            }
+            .home_title{
+                font-weight: 700;
+                color: #0A203F;
+                font-size: 42px;
+            }
+            .soft_blue{
+                color: #1480E8 !important;
+            }
+            .home_paragraf {
+                color: #838383;
+                width: 70%;
+            }
+            .section-title {
+                color: #0A203F;
+                font-weight: 700;
+                font-size: 32px;
+            }
+            .section-title-sm {
+                color: #0A203F;
+                font-weight: 700;
+                font-size: 24px;
+            }
+            .home-img{
+                width: 90%!important;
+            }
+            .live_paragraf {
+                width: 95%;
+            }
+            .choose-us{
+                margin-bottom: 12rem;
+            }
+            .section-box {
+                min-height: 300px;
+            }
+            
+    }                
+/* 0-1200px arası */
+@media(max-width:1200px){
+        .Investors-Partners li {
+        padding: 1rem 5rem 1rem 0 !important;}
+        .partners_img {
+            height: 24px;
+        }
+        .faqs-img{
+             width: 70%;
+        }
+        .news .container {
+            padding: 3rem 1rem;
+            }
+            .news-box{
+                width: 100%;
+            }
+            .footer_social > ul > li {
+                padding: 0 11px 0 0;
+            }
+}
+/* 0-992px arası */
+@media(max-width:992px){
+    
+    .choose-us{
+        margin-bottom: 16rem;
+    }  
+    .faqs-img{
+        width: 40%;
+    }
+    .Investors-Partners li {
+        padding: 1rem 3rem 1rem 0 !important;}
+    .partners_img {
+        height: 20px;
+    }
+   
+    
+}
+/* 0-768px arası */
+@media(max-width:768px){
+    .head_logo{
+        width: 190px;
+        height: auto;
+    }
+    .home_title{
+        font-size: 36px;
+    }
+    .home_paragraf {
+        width: 100%;
+    }
+      .section-title {
+        font-size: 30px;
+    }
+    .section-title-sm {
+        font-size: 22px;
+    }
+    .home-img{
+        width: 60%!important;
+    }
+    .margin_bottom{
+        margin-bottom: 2rem;
+        }
+        .popular-collection .item{
+            height: 340px;
+        }
+     .choose-us{
+         height: auto;
+         padding-bottom: 1rem;
+         margin-bottom: 3rem;
+     }   
+    
+     .Investors-Partners li {
+        padding: 1rem 1rem 1rem 0 !important;}
+    .partners_img {
+        height: 18px;
+    }
+    .pe-0 {
+        padding-right: 0.6rem!important;
+    }
+    .news_paper-img {
+        width: 45%;
+    }
+    .social_icon {
+        width: 28px;
+        height: 28px;
+    }
+    .footer_social > ul > li {
+        padding: 0 1px 0 0;
+    }
+    
+}
+/* 0-576px arası */
+@media(max-width:576px){
+    .home_title{
+        font-size: 24px;
+    }
+    .live_paragraf {
+        width: 100%;
+    }
+    .Investors-Partners li {
+        padding: 1rem .6rem 1rem 0 !important;}
+    .partners_img {
+        height: 16px;
+    }
+    .news_paper-img {
+        width: 60%;
+    }
+  
+}
+@media(max-width:350px){
+    .Investors-Partners li {
+        padding: 1rem .2rem 1rem 0 !important;}
+
+        .footer_social > ul > li {
+            padding: 0 16px 1rem 0;
+        }
+        .social_icon {
+        width: 33px;
+        height: 33px;
+    }
+        
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .t-center{
+        text-align: center;
+    }
+    .t-center .footer_title{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
